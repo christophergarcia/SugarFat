@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC29875260A0F3F0027FE16 /* SugarFatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC29862260A0F3E0027FE16 /* SugarFatApp.swift */; };
+		9DC29876260A0F3F0027FE16 /* SugarFatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC29862260A0F3E0027FE16 /* SugarFatApp.swift */; };
+		9DC29877260A0F3F0027FE16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC29863260A0F3E0027FE16 /* ContentView.swift */; };
+		9DC29878260A0F3F0027FE16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC29863260A0F3E0027FE16 /* ContentView.swift */; };
+		9DC29879260A0F3F0027FE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC29864260A0F3F0027FE16 /* Assets.xcassets */; };
+		9DC2987A260A0F3F0027FE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC29864260A0F3F0027FE16 /* Assets.xcassets */; };
+		9DC29888260A15F60027FE16 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC29887260A15F60027FE16 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DC29862260A0F3E0027FE16 /* SugarFatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarFatApp.swift; sourceTree = "<group>"; };
+		9DC29863260A0F3E0027FE16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DC29864260A0F3F0027FE16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC29869260A0F3F0027FE16 /* SugarFat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarFat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC2986C260A0F3F0027FE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC29871260A0F3F0027FE16 /* SugarFat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarFat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC29873260A0F3F0027FE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC29874260A0F3F0027FE16 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9DC29885260A15F50027FE16 /* SugarFat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SugarFat.entitlements; sourceTree = "<group>"; };
+		9DC29887260A15F60027FE16 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC29866260A0F3F0027FE16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC29888260A15F60027FE16 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC2986E260A0F3F0027FE16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC2985C260A0F3E0027FE16 = {
+			isa = PBXGroup;
+			children = (
+				9DC29885260A15F50027FE16 /* SugarFat.entitlements */,
+				9DC29861260A0F3E0027FE16 /* Shared */,
+				9DC2986B260A0F3F0027FE16 /* iOS */,
+				9DC29872260A0F3F0027FE16 /* macOS */,
+				9DC2986A260A0F3F0027FE16 /* Products */,
+				9DC29886260A15F60027FE16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC29861260A0F3E0027FE16 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9DC29862260A0F3E0027FE16 /* SugarFatApp.swift */,
+				9DC29863260A0F3E0027FE16 /* ContentView.swift */,
+				9DC29864260A0F3F0027FE16 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9DC2986A260A0F3F0027FE16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC29869260A0F3F0027FE16 /* SugarFat.app */,
+				9DC29871260A0F3F0027FE16 /* SugarFat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC2986B260A0F3F0027FE16 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9DC2986C260A0F3F0027FE16 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9DC29872260A0F3F0027FE16 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9DC29873260A0F3F0027FE16 /* Info.plist */,
+				9DC29874260A0F3F0027FE16 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		9DC29886260A15F60027FE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC29887260A15F60027FE16 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC29868260A0F3F0027FE16 /* SugarFat (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC2987D260A0F3F0027FE16 /* Build configuration list for PBXNativeTarget "SugarFat (iOS)" */;
+			buildPhases = (
+				9DC29865260A0F3F0027FE16 /* Sources */,
+				9DC29866260A0F3F0027FE16 /* Frameworks */,
+				9DC29867260A0F3F0027FE16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SugarFat (iOS)";
+			productName = "SugarFat (iOS)";
+			productReference = 9DC29869260A0F3F0027FE16 /* SugarFat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DC29870260A0F3F0027FE16 /* SugarFat (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC29880260A0F3F0027FE16 /* Build configuration list for PBXNativeTarget "SugarFat (macOS)" */;
+			buildPhases = (
+				9DC2986D260A0F3F0027FE16 /* Sources */,
+				9DC2986E260A0F3F0027FE16 /* Frameworks */,
+				9DC2986F260A0F3F0027FE16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SugarFat (macOS)";
+			productName = "SugarFat (macOS)";
+			productReference = 9DC29871260A0F3F0027FE16 /* SugarFat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC2985D260A0F3E0027FE16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9DC29868260A0F3F0027FE16 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9DC29870260A0F3F0027FE16 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9DC29860260A0F3E0027FE16 /* Build configuration list for PBXProject "SugarFat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC2985C260A0F3E0027FE16;
+			productRefGroup = 9DC2986A260A0F3F0027FE16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC29868260A0F3F0027FE16 /* SugarFat (iOS) */,
+				9DC29870260A0F3F0027FE16 /* SugarFat (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC29867260A0F3F0027FE16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC29879260A0F3F0027FE16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC2986F260A0F3F0027FE16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC2987A260A0F3F0027FE16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC29865260A0F3F0027FE16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC29877260A0F3F0027FE16 /* ContentView.swift in Sources */,
+				9DC29875260A0F3F0027FE16 /* SugarFatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC2986D260A0F3F0027FE16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC29878260A0F3F0027FE16 /* ContentView.swift in Sources */,
+				9DC29876260A0F3F0027FE16 /* SugarFatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9DC2987B260A0F3F0027FE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DC2987C260A0F3F0027FE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9DC2987E260A0F3F0027FE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SugarFat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJ43KYTQQ8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmgarcia.SugarFat;
+				PRODUCT_NAME = SugarFat;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DC2987F260A0F3F0027FE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SugarFat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RJ43KYTQQ8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmgarcia.SugarFat;
+				PRODUCT_NAME = SugarFat;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC29881260A0F3F0027FE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJ43KYTQQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmgarcia.SugarFat;
+				PRODUCT_NAME = SugarFat;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9DC29882260A0F3F0027FE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RJ43KYTQQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmgarcia.SugarFat;
+				PRODUCT_NAME = SugarFat;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC29860260A0F3E0027FE16 /* Build configuration list for PBXProject "SugarFat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC2987B260A0F3F0027FE16 /* Debug */,
+				9DC2987C260A0F3F0027FE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC2987D260A0F3F0027FE16 /* Build configuration list for PBXNativeTarget "SugarFat (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC2987E260A0F3F0027FE16 /* Debug */,
+				9DC2987F260A0F3F0027FE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC29880260A0F3F0027FE16 /* Build configuration list for PBXNativeTarget "SugarFat (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC29881260A0F3F0027FE16 /* Debug */,
+				9DC29882260A0F3F0027FE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC2985D260A0F3E0027FE16 /* Project object */;
+}
